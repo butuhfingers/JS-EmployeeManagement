@@ -1,0 +1,9 @@
+<u1 class="employee-list">
+    <h2>Employee List</h2>
+
+    {{#each employees}}
+        <li>{{name.first}}  {{name.last}}  {{jobTitle}}  {{pay.type}}  {{pay.rate}}</li>
+    {{/each}}
+
+    <a href="/employees/new" >Add Employee</a>
+</u1>

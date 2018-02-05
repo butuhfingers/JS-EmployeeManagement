@@ -1,0 +1,32 @@
+body{
+    background-color: #35843c;
+    font-size: 20px;
+    color:ghostwhite;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.employee-list{
+    float:left;
+    width:300px;
+    padding:10px;
+    background:#0d6b16;
+    list-style: none;
+    border-radius:20px;
+}
+    .employee-list li{
+        float:left;
+        width:100%;
+        padding:5px;
+        font-weight:bold;
+    }
+
+.employee-input-form{
+    width:100px;
+}
+    .employee-input-form input, .employee-input-form select{
+        float:left;
+        padding:5px;
+        margin-bottom: 10px;
+        font-size:20px;
+    }
