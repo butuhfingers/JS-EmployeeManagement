@@ -1,14 +1,14 @@
 This is the add employee page
 
-<form class="employee-input-form" action="/employees" method="post">
-    <input type="text" name="firstName" placeholder="First Name"/>
-    <input type="text" name="lastName" placeholder="Last Name">
-    <input type="text" name="jobTitle" placeholder="Job Title">
-    <input type="text" name="payRate" placeholder="Pay Rate">
+<form id="employee-input-form" action="/employees" method="post">
+    <input type="text" name="firstName" placeholder="First Name" data-required="A job title is required" />
+    <input type="text" name="lastName" placeholder="Last Name" data-required="A job title is required" />
+    <input type="text" name="jobTitle" placeholder="Job Title" data-required="A job title is required" />
+    <input type="text" name="payRate" placeholder="Pay Rate" data-required="A number is required" />
     Pay Type:
     <select name="payType">
         <option value="hourly">Hourly</option>
         <option value="salary">Salary</option>
     </select>
-    <input type="submit" value="Submit that Form">
+    <input type="submit" value="Submit">
 </form>

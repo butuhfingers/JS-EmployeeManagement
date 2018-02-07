@@ -21,12 +21,16 @@ body{
         font-weight:bold;
     }
 
-.employee-input-form{
+#employee-input-form{
     width:100px;
 }
-    .employee-input-form input, .employee-input-form select{
+    #employee-input-form input, #employee-input-form select{
         float:left;
         padding:5px;
         margin-bottom: 10px;
         font-size:20px;
+    }
+
+    .error{
+        border: 1px solid red;
     }
