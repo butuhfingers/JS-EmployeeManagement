@@ -2,8 +2,14 @@
     <h2>Employee List</h2>
 
     {{#each employees}}
-        <li>{{name.first}}  {{name.last}}  {{jobTitle}}  {{pay.type}}  {{pay.rate}}</li>
+        <li>First:{{name.first}}<br>
+            Last:{{name.last}}<br>
+            Title:{{jobTitle}}<br>
+            Pay Type:{{pay.type}}<br>
+            Rate:{{pay.rate}}<br>
+            Insurance Pay:{{pay.insurance}}<br></li>
     {{/each}}
 
     <a href="/employees/new" >Add Employee</a>
+    <br><a href="/employees/pay" >Pay Calculator</a>
 </u1>
